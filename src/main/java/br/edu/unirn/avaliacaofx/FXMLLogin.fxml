@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="177.0" prefWidth="341.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.edu.unirn.avaliacaofx.FXMLLoginController">
+  <children>
+    <Label layoutX="71.0" layoutY="14.0" text="Usuário:" />
+    <TextField fx:id="tfUsuario" layoutX="71.0" layoutY="30.0" prefWidth="200.0" />
+    <Label layoutX="71.0" layoutY="59.0" text="Senha:" />
+    <PasswordField fx:id="tfSenha" layoutX="71.0" layoutY="78.0" prefWidth="200.0" />
+    <Button fx:id="btAcessar" defaultButton="true" layoutX="71.0" layoutY="106.0" mnemonicParsing="false" onAction="#acessar" text="Acessar" />
+    <Button fx:id="btSair" cancelButton="true" layoutX="194.0" layoutY="106.0" mnemonicParsing="false" onAction="#sair" prefWidth="73.0" text="Sair" />
+    <Label fx:id="lbMensagem" layoutX="68.0" layoutY="139.0" prefHeight="37.0" text="Usuário admin e senha admin." />
+  </children>
+</AnchorPane>
