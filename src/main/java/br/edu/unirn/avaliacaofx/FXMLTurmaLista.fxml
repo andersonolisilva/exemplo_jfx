@@ -21,7 +21,7 @@
                     <ComboBox id="cboxPesquisar" fx:id="cbPesquisar" layoutX="52.0" layoutY="5.0" prefWidth="159.0">
                       <items>
                         <FXCollections fx:factory="observableArrayList">
-                          <String fx:value="Nome da turma" />
+                          <String fx:value="Nome da turma:" />
                         </FXCollections>
                       </items>
                     </ComboBox>
